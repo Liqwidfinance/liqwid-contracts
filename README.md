@@ -30,3 +30,5 @@ plutus playground:
 https://playground.plutus.iohkdev.io
 plutus playground tutorial video:
 https://www.youtube.com/watch?v=DhRS-JvoCw8
+plutus tutorial page:
+https://docs.cardano.org/projects/plutus/en/latest/tutorials/plutus-playground.html
