@@ -1,0 +1,93 @@
+name:                liqwid-contracts
+version:             0.1.0.0
+github:              "githubuser/liqwid-contracts"
+license:             BSD3
+author:              "Author name here"
+maintainer:          "example@example.com"
+copyright:           "2021 Author name here"
+
+extra-source-files:
+- README.md
+# - ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/githubuser/liqwid-contracts#readme>
+
+
+dependencies:
+- base >= 4.7 && < 5
+- playground-common
+- plutus-core
+- plutus-contract
+- plutus-ledger
+- plutus-tx
+- prettyprinter
+
+- text
+
+ghc-options:
+  - -Wall -Wcompat -Weverything -Wmissing-signatures
+  - -Wno-missing-import-lists -Wno-missed-specialisations
+  - -Wno-all-missed-specialisations -Wno-missing-local-signatures 
+  - -Wno-monomorphism-restriction -Wno-missing-safe-haskell-mode
+  - -Wno-unused-packages -Wno-unsafe -Wno-prepositive-qualified-module
+  - -Wno-missing-export-lists
+  - -Werror
+  # - -fplugin=RecordDotPreprocessor - use file pragma for this
+
+default-extensions:
+    AllowAmbiguousTypes
+    BlockArguments
+    ConstraintKinds
+    DefaultSignatures
+    DeriveAnyClass
+    DeriveFunctor
+    DeriveGeneric
+    DerivingStrategies
+    DuplicateRecordFields
+    EmptyCase
+    ExplicitNamespaces
+    FlexibleContexts
+    FlexibleInstances
+    GeneralizedNewtypeDeriving
+    InstanceSigs
+    LambdaCase
+    MultiParamTypeClasses
+    MultiWayIf
+    NamedFieldPuns
+    NoImplicitPrelude
+    OverloadedLabels
+    OverloadedStrings
+    PatternSynonyms
+    RecordWildCards
+    ScopedTypeVariables
+    StandaloneDeriving
+    TemplateHaskell
+    TupleSections
+    TypeApplications
+    TypeFamilies
+    TypeOperators
+    TypeSynonymInstances
+    UndecidableInstances
+    ViewPatterns
+
+
+library:
+  source-dirs: src
+
+tests:
+  liqwid-contracts-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - liqwid-contracts

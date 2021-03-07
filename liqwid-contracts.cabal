@@ -1,0 +1,66 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 307c6ad321d07953aec1f7dcd2db3a8a9275b91f6d6975be2f729b024f4b0e77
+
+name:           liqwid-contracts
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/liqwid-contracts#readme>
+homepage:       https://github.com/githubuser/liqwid-contracts#readme
+bug-reports:    https://github.com/githubuser/liqwid-contracts/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2021 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/liqwid-contracts
+
+library
+  exposed-modules:
+      Liqwid
+  other-modules:
+      Paths_liqwid_contracts
+  hs-source-dirs:
+      src
+  default-extensions: AllowAmbiguousTypes BlockArguments ConstraintKinds DefaultSignatures DeriveAnyClass DeriveFunctor DeriveGeneric DerivingStrategies DuplicateRecordFields EmptyCase ExplicitNamespaces FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude OverloadedLabels OverloadedStrings PatternSynonyms RecordWildCards ScopedTypeVariables StandaloneDeriving TemplateHaskell TupleSections TypeApplications TypeFamilies TypeOperators TypeSynonymInstances UndecidableInstances ViewPatterns
+  ghc-options: -Wall -Wcompat -Weverything -Wmissing-signatures -Wno-missing-import-lists -Wno-missed-specialisations -Wno-all-missed-specialisations -Wno-missing-local-signatures -Wno-monomorphism-restriction -Wno-missing-safe-haskell-mode -Wno-unused-packages -Wno-unsafe -Wno-prepositive-qualified-module -Wno-missing-export-lists -Werror
+  build-depends:
+      base >=4.7 && <5
+    , playground-common
+    , plutus-contract
+    , plutus-core
+    , plutus-ledger
+    , plutus-tx
+    , prettyprinter
+    , text
+  default-language: Haskell2010
+
+test-suite liqwid-contracts-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_liqwid_contracts
+  hs-source-dirs:
+      test
+  default-extensions: AllowAmbiguousTypes BlockArguments ConstraintKinds DefaultSignatures DeriveAnyClass DeriveFunctor DeriveGeneric DerivingStrategies DuplicateRecordFields EmptyCase ExplicitNamespaces FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude OverloadedLabels OverloadedStrings PatternSynonyms RecordWildCards ScopedTypeVariables StandaloneDeriving TemplateHaskell TupleSections TypeApplications TypeFamilies TypeOperators TypeSynonymInstances UndecidableInstances ViewPatterns
+  ghc-options: -Wall -Wcompat -Weverything -Wmissing-signatures -Wno-missing-import-lists -Wno-missed-specialisations -Wno-all-missed-specialisations -Wno-missing-local-signatures -Wno-monomorphism-restriction -Wno-missing-safe-haskell-mode -Wno-unused-packages -Wno-unsafe -Wno-prepositive-qualified-module -Wno-missing-export-lists -Werror -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , liqwid-contracts
+    , playground-common
+    , plutus-contract
+    , plutus-core
+    , plutus-ledger
+    , plutus-tx
+    , prettyprinter
+    , text
+  default-language: Haskell2010

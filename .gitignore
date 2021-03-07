@@ -5,7 +5,9 @@
 
 # Node artifact files
 node_modules/
+.stack-work/
 dist/
+dist-newstyle/
 
 # Compiled Java class files
 *.class
