@@ -28,3 +28,5 @@ experimental smart contracts:
 https://github.com/robkorn/plutus-experimental-smart-contracts
 plutus playground:
 https://playground.plutus.iohkdev.io
+plutus playground tutorial video:
+https://www.youtube.com/watch?v=DhRS-JvoCw8
