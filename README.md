@@ -15,6 +15,12 @@ hlint 3.2.3
 
 currently code can only be tested via the playground, we need to figure out the right way to script tests and run them locally.
 
+## plutus docs
+
+The plutus docs seem to rely on nix to build, so we build them outside of stack.
+`make hoogle` will use a nix-shell environment to build the plutus docs and spin up a hoogle server.
+
+ 
 ## development resources:
 plutus repo & docs
 https://github.com/input-output-hk/plutus

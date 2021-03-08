@@ -9,6 +9,10 @@ node_modules/
 dist/
 dist-newstyle/
 
+# nix-build results
+result
+result-
+
 # Compiled Java class files
 *.class
 

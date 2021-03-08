@@ -1,0 +1,10 @@
+{
+  "url": "https://github.com/input-output-hk/plutus",
+  "rev": "954e6b388c2e35767b8537e72190da2950c34684",
+  "date": "2020-09-25T05:50:57+07:00",
+  "path": "/nix/store/6a2yz0d50wjakbw5hzklm8i4bkvkzjjh-plutus-954e6b3",
+  "sha256": "1fn8rlpnws3m1qjp2p38i28v24n6j8bs53ygwpw3j13ssxa0p7d1",
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "leaveDotGit": false
+}
