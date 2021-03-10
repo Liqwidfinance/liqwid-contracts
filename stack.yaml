@@ -15,6 +15,7 @@ extra-deps:
     - plutus-tx
     - plutus-tx-plugin
     - prettyprinter-configurable
+  # nix-sha256: 1fn8rlpnws3m1qjp2p38i28v24n6j8bs53ygwpw3j13ssxa0p7d1
 
 
 # NOTE: this is all just to support the plutus repo above
