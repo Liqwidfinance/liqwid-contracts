@@ -1,10 +1,10 @@
 {
   "url": "https://github.com/input-output-hk/plutus",
-  "rev": "c88a078224ba31c58ee1b79d49f635b5fd6df7ed",
-  "date": "2021-03-10T15:56:39+00:00",
-  "path": "/nix/store/6zzml22kqlc0c4zkzz42dfnb1c1lzaap-plutus",
-  "sha256": "14s81wwp42pixn68adn264z099ci6rmfcyxyc3qprv3ivaxgcmgh",
-  "fetchSubmodules": false,
+  "rev": "ba9cb287addd19e602991a4a5c6c4c011321c506",
+  "date": "2021-03-11T11:19:06+00:00",
+  "path": "/nix/store/jwq5caf2vpxr2yyw9w8w6449knbnka2v-plutus",
+  "sha256": "1k8f8si5qbf17snkkrbvs2j5y8x13y1i6nqin8lzx7d1fp4hfx81",
+  "fetchSubmodules": true,
   "deepClone": false,
-  "leaveDotGit": false
+  "leaveDotGit": true
 }

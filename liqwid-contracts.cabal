@@ -1,10 +1,8 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.2.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
---
--- hash: 307c6ad321d07953aec1f7dcd2db3a8a9275b91f6d6975be2f729b024f4b0e77
 
 name:           liqwid-contracts
 version:        0.1.0.0
@@ -31,7 +29,8 @@ library
       Paths_liqwid_contracts
   hs-source-dirs:
       src
-  default-extensions: AllowAmbiguousTypes BlockArguments ConstraintKinds DefaultSignatures DeriveAnyClass DeriveFunctor DeriveGeneric DerivingStrategies DuplicateRecordFields EmptyCase ExplicitNamespaces FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude OverloadedLabels OverloadedStrings PatternSynonyms RecordWildCards ScopedTypeVariables StandaloneDeriving TemplateHaskell TupleSections TypeApplications TypeFamilies TypeOperators TypeSynonymInstances UndecidableInstances ViewPatterns
+  default-extensions:
+      AllowAmbiguousTypes BlockArguments ConstraintKinds DefaultSignatures DeriveAnyClass DeriveFunctor DeriveGeneric DerivingStrategies DuplicateRecordFields EmptyCase ExplicitNamespaces FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude OverloadedLabels OverloadedStrings PatternSynonyms RecordWildCards ScopedTypeVariables StandaloneDeriving TemplateHaskell TupleSections TypeApplications TypeFamilies TypeOperators TypeSynonymInstances UndecidableInstances ViewPatterns
   ghc-options: -Wall -Wcompat -Weverything -Wmissing-signatures -Wno-missing-import-lists -Wno-missed-specialisations -Wno-all-missed-specialisations -Wno-missing-local-signatures -Wno-monomorphism-restriction -Wno-missing-safe-haskell-mode -Wno-unused-packages -Wno-unsafe -Wno-prepositive-qualified-module -Wno-missing-export-lists -Werror
   build-depends:
       base >=4.7 && <5
@@ -51,7 +50,8 @@ test-suite liqwid-contracts-test
       Paths_liqwid_contracts
   hs-source-dirs:
       test
-  default-extensions: AllowAmbiguousTypes BlockArguments ConstraintKinds DefaultSignatures DeriveAnyClass DeriveFunctor DeriveGeneric DerivingStrategies DuplicateRecordFields EmptyCase ExplicitNamespaces FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude OverloadedLabels OverloadedStrings PatternSynonyms RecordWildCards ScopedTypeVariables StandaloneDeriving TemplateHaskell TupleSections TypeApplications TypeFamilies TypeOperators TypeSynonymInstances UndecidableInstances ViewPatterns
+  default-extensions:
+      AllowAmbiguousTypes BlockArguments ConstraintKinds DefaultSignatures DeriveAnyClass DeriveFunctor DeriveGeneric DerivingStrategies DuplicateRecordFields EmptyCase ExplicitNamespaces FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude OverloadedLabels OverloadedStrings PatternSynonyms RecordWildCards ScopedTypeVariables StandaloneDeriving TemplateHaskell TupleSections TypeApplications TypeFamilies TypeOperators TypeSynonymInstances UndecidableInstances ViewPatterns
   ghc-options: -Wall -Wcompat -Weverything -Wmissing-signatures -Wno-missing-import-lists -Wno-missed-specialisations -Wno-all-missed-specialisations -Wno-missing-local-signatures -Wno-monomorphism-restriction -Wno-missing-safe-haskell-mode -Wno-unused-packages -Wno-unsafe -Wno-prepositive-qualified-module -Wno-missing-export-lists -Werror -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5

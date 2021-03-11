@@ -5,83 +5,70 @@
 
 packages:
 - completed:
-    subdir: iots-export
-    name: iots-export
-    version: 0.1.0.0
-    git: https://github.com/input-output-hk/plutus.git
-    pantry-tree:
-      size: 1280
-      sha256: 4fcb9c86e81297d46a2dd698a08444d110ff06ec5e6769cff4335b0800efb7d5
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
-  original:
-    subdir: iots-export
-    git: https://github.com/input-output-hk/plutus.git
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
-- completed:
     subdir: playground-common
     name: playground-common
     version: 0.1.0.0
     git: https://github.com/input-output-hk/plutus.git
     pantry-tree:
-      size: 1986
-      sha256: 5584144f4904cc78f6c06438bd51cdf6a483a9a849c02ff6e733402946ff497d
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+      size: 1985
+      sha256: 286a47a9b6ec9cea034de7b272be9bc8da98529fe1a9d706d70ea56f05edc5d6
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
   original:
     subdir: playground-common
     git: https://github.com/input-output-hk/plutus.git
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
 - completed:
     subdir: plutus-core
     name: plutus-core
     version: 0.1.0.0
     git: https://github.com/input-output-hk/plutus.git
     pantry-tree:
-      size: 76286
-      sha256: 165618935a42ef0f3f36611f3755702aed9266c23bfb78216ec681eceac92940
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+      size: 81919
+      sha256: 0ed0b37cd74aeed8cb184a95e57edb7c74f3fb8286cc6cbb8f51f6149264004c
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
   original:
     subdir: plutus-core
     git: https://github.com/input-output-hk/plutus.git
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
 - completed:
     subdir: plutus-contract
     name: plutus-contract
     version: 0.1.0.0
     git: https://github.com/input-output-hk/plutus.git
     pantry-tree:
-      size: 4928
-      sha256: 3561443cc9a73a9464e6ae28f5df56d84b7d083c091f8ef30c585a6bb13f7df3
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+      size: 5836
+      sha256: 7a8501a7ea2bc4c2265fefb5b1d80c4f67bbb61ddcd657122b437264f42b4a71
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
   original:
     subdir: plutus-contract
     git: https://github.com/input-output-hk/plutus.git
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
 - completed:
     subdir: plutus-ledger
     name: plutus-ledger
     version: 0.1.0.0
     git: https://github.com/input-output-hk/plutus.git
     pantry-tree:
-      size: 2250
-      sha256: 455f38029e3c0b049e646a96cde90886e97e34d10f63021f2dd40782f4ed4c05
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+      size: 1436
+      sha256: 13ade997c119046c95a18566737ee102d1f2e6ec4face89291b9f9eee4b00c9d
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
   original:
     subdir: plutus-ledger
     git: https://github.com/input-output-hk/plutus.git
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
 - completed:
     subdir: plutus-tx
     name: plutus-tx
     version: 0.1.0.0
     git: https://github.com/input-output-hk/plutus.git
     pantry-tree:
-      size: 2588
-      sha256: af4f9abfe5611a8e62295e4b0cf97677d2bf701abae973a78e985b1763ee5b3a
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+      size: 2713
+      sha256: 38a7072ab7f153a541c3ba951f47e860ba04a79de96ef85dc843ad8f1b74a069
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
   original:
     subdir: plutus-tx
     git: https://github.com/input-output-hk/plutus.git
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
 - completed:
     subdir: plutus-tx-plugin
     name: plutus-tx-plugin
@@ -89,12 +76,12 @@ packages:
     git: https://github.com/input-output-hk/plutus.git
     pantry-tree:
       size: 14514
-      sha256: 87bc6b2527e50fd4fee838ebe4c2e54e7b2e4ecfb1864fa88e721df61042139c
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+      sha256: 06931bde8352e15912f4b847d1792bda39db21200de89baa1a39bfdbe430e333
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
   original:
     subdir: plutus-tx-plugin
     git: https://github.com/input-output-hk/plutus.git
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
 - completed:
     subdir: prettyprinter-configurable
     name: prettyprinter-configurable
@@ -102,12 +89,45 @@ packages:
     git: https://github.com/input-output-hk/plutus.git
     pantry-tree:
       size: 1191
-      sha256: 49bf28e93dbcfbc7246cd6dda40a7a43c2bee4c69914eef7f54c937f10135b09
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+      sha256: 1ab5120aa1127c06a75cf3920af7ea0a69edd5d1828b7163f74984699b9626f9
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
   original:
     subdir: prettyprinter-configurable
     git: https://github.com/input-output-hk/plutus.git
-    commit: 954e6b388c2e35767b8537e72190da2950c34684
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
+- completed:
+    subdir: plutus-ledger-api
+    name: plutus-ledger-api
+    version: 0.1.0.0
+    git: https://github.com/input-output-hk/plutus.git
+    pantry-tree:
+      size: 1361
+      sha256: 38f3ea631214c0df1b13baef2fc30ae0e118021f5c926bb9112f1a9b4d7b361b
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
+  original:
+    subdir: plutus-ledger-api
+    git: https://github.com/input-output-hk/plutus.git
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
+- completed:
+    subdir: freer-extras
+    name: freer-extras
+    version: 0.1.0.0
+    git: https://github.com/input-output-hk/plutus.git
+    pantry-tree:
+      size: 595
+      sha256: 3002ae0543cd33905ba6ee0e98918771b37ad7daa0492f84b39f0b848ac34c50
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
+  original:
+    subdir: freer-extras
+    git: https://github.com/input-output-hk/plutus.git
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
+- completed:
+    hackage: pure-zlib-0.6.7@sha256:5a1cdf87bf3079b7d3abace1f94eeb3c597c687a38a08ee2908783e609271467,3487
+    pantry-tree:
+      size: 2173
+      sha256: c8a18177a5a2b5508d12752e67b1932567e3534cd94dc33aae08a2492d314ecb
+  original:
+    hackage: pure-zlib-0.6.7@sha256:5a1cdf87bf3079b7d3abace1f94eeb3c597c687a38a08ee2908783e609271467,3487
 - completed:
     hackage: lazy-search-0.1.2.0@sha256:2c9e1071b3fbabf6f9ac3eab846a8314bbb9f73901436a2882de249e6121724e,1199
     pantry-tree:
@@ -158,19 +178,12 @@ packages:
   original:
     hackage: aws-lambda-haskell-runtime-wai-1.0.2@sha256:5ce655247461b562c8048011ddc022130135a03417def8203aad92366cc979ab,1965
 - completed:
-    hackage: binary-instances-1.0.0.1@sha256:e234be994da675479a3661f050d4a1d53565c9ed7786d9a68b7a29ba8b54b5a7,2659
-    pantry-tree:
-      size: 1035
-      sha256: 6086ebb4c6f3d28200f295c36495227b3cd762ab1de3dafa36f6ce8674a23a90
-  original:
-    hackage: binary-instances-1.0.0.1
-- completed:
-    hackage: composition-prelude-2.0.2.1@sha256:cbe98c3992b593f912f4372cc514fc592e31a3119f2dc2671f2ac747c501d1b7,1061
+    hackage: composition-prelude-3.0.0.2@sha256:1ffed216bd28d810fce0b5be83a661e2a892696d73b3f8de5c0f5edb9b5f0090,1216
     pantry-tree:
       size: 284
-      sha256: 762a5e169522a55b1083798e08c6b8ef12dcd15f65ef23a8722b5dbf7ab25302
+      sha256: 94fc1c55e9065ae575315ac52a552d0e03beaefef4669a58a9745c6d71b4dd6b
   original:
-    hackage: composition-prelude-2.0.2.1
+    hackage: composition-prelude-3.0.0.2
 - completed:
     hackage: constraints-extras-0.3.0.2@sha256:013b8d0392582c6ca068e226718a4fe8be8e22321cc0634f6115505bf377ad26,1853
     pantry-tree:
@@ -179,12 +192,12 @@ packages:
   original:
     hackage: constraints-extras-0.3.0.2
 - completed:
-    hackage: dependent-map-0.3@sha256:dc745864d5116bbd59ad29100faec74c79e681d35808547023619544c0e9f9b7,1574
+    hackage: dependent-map-0.4.0.0@sha256:ca2b131046f4340a1c35d138c5a003fe4a5be96b14efc26291ed35fd08c62221,1657
     pantry-tree:
       size: 551
-      sha256: 33ba69f91b54e7d64953b236d1de4ac31477b5b164f2990bfce308914006eac3
+      sha256: 5defa30010904d2ad05a036f3eaf83793506717c93cbeb599f40db1a3632cfc5
   original:
-    hackage: dependent-map-0.3
+    hackage: dependent-map-0.4.0.0
 - completed:
     hackage: dependent-sum-0.6.2.0@sha256:bff37c85b38e768b942f9d81c2465b63a96076f1ba006e35612aa357770807b6,1856
     pantry-tree:
@@ -200,34 +213,6 @@ packages:
   original:
     hackage: dependent-sum-template-0.1.0.3
 - completed:
-    hackage: deriving-aeson-0.2.3@sha256:7d29fa7038bcd71d93ec53e2e010b3033f17d82cc7c98c9a1867b72d01f380c9,1258
-    pantry-tree:
-      size: 441
-      sha256: 4ab3fa9a892cbd8e717437e31cbdf37f0100b3a4c0628108067100d3f17ed788
-  original:
-    hackage: deriving-aeson-0.2.3
-- completed:
-    hackage: ekg-0.4.0.15@sha256:d6e48859a89fbbe23496f871581e44a41f97dac627c2b9db81f49b92fa066516,2031
-    pantry-tree:
-      size: 1495
-      sha256: e56e9c0eadc309a27400af106a2d3133d70ad0a3bbbb9be2c54e837ccdb4a77d
-  original:
-    hackage: ekg-0.4.0.15
-- completed:
-    hackage: ekg-core-0.1.1.7@sha256:c4356aefea0e1e2f80a236d3b3f81b83b445c1e53519302e96477da0adee2e9f,2039
-    pantry-tree:
-      size: 1073
-      sha256: f403baeb7787c69c5e28f5aa1e94f78d4363beb19362d66f18de4a1aef0723fe
-  original:
-    hackage: ekg-core-0.1.1.7
-- completed:
-    hackage: ekg-json-0.1.0.6@sha256:e16efc1b09ae7635db3f0535335ee3e8aa666fe4bf3749783f4022020f6ca3b8,1050
-    pantry-tree:
-      size: 265
-      sha256: 09239a4e3ab0d58be0ac360d41c491df017f4a18ba558fd67909e24f14caece7
-  original:
-    hackage: ekg-json-0.1.0.6
-- completed:
     hackage: eventful-memory-0.2.0@sha256:0b34971fa4c1c158fe3261b87e097c5eb084ae88a0f9ef1e65af5a9a99cbaeba,1575
     pantry-tree:
       size: 713
@@ -235,12 +220,33 @@ packages:
   original:
     hackage: eventful-memory-0.2.0
 - completed:
-    hackage: barbies-2.0.1.0@sha256:289c0ab2a8477dc09d70653f437b7b83caa8969cc007c866bc52606121cce3c1,4407
+    hackage: barbies-2.0.2.0@sha256:fa6656b45c40f7d4ab1764d078c6878f37d37fab7f7135c061e9a5baa67943c0,4407
     pantry-tree:
       size: 4426
-      sha256: 154ccf6bf8816db6838d2b689ea821d818288a81b92b01e10c936536699f2e61
+      sha256: 5aa3ff178fe56b21250543384e8482de13f35ef57a06943178382b0f2e3eca24
   original:
-    hackage: barbies-2.0.1.0
+    hackage: barbies-2.0.2.0
+- completed:
+    hackage: nothunks-0.1.2@sha256:dff801c9f08ed2fcfb24e029b96a235b89f98623bb2b4df43f8b3b50b30706a3,2316
+    pantry-tree:
+      size: 342
+      sha256: 54331222541e53ef6f9d2596fa4e2e648d0e26e17db6351f1118f1f3fe66b70e
+  original:
+    hackage: nothunks-0.1.2
+- completed:
+    hackage: indexed-traversable-instances-0.1@sha256:3aaf97040001bbe583e29c2b9c7d41660df265e6565a0d2ac09a3ed5b8bc21be,2874
+    pantry-tree:
+      size: 427
+      sha256: d69630ba4b548b72eed15553586ce7b1e574cd8e4cc5b30d506ab3a697b26502
+  original:
+    hackage: indexed-traversable-instances-0.1
+- completed:
+    hackage: base16-bytestring-1.0.1.0@sha256:33b9d57afa334d06485033e930c6b13fc760baf88fd8f715ae2f9a4b46e19a54,2641
+    pantry-tree:
+      size: 595
+      sha256: 24661ef9b1089d468227300f8ceb89194b5cce68b9f6ed8109b01f63c07f54e3
+  original:
+    hackage: base16-bytestring-1.0.1.0
 - completed:
     hackage: eventful-sql-common-0.2.0@sha256:8766a5ebc16044c254d1789ee63d01c8fdf9d1f878e720bf6069526d76d4e4d7,1118
     pantry-tree:
@@ -256,34 +262,6 @@ packages:
   original:
     hackage: eventful-sqlite-0.2.0
 - completed:
-    hackage: persistent-sqlite-2.10.6.2@sha256:054637283f68e662562eb8e9deb0ca021f2c797733b8c0f86fb71ebe6664e5cd,5190
-    pantry-tree:
-      size: 748
-      sha256: c6bc25f955d8bfc945c1cd4180147ffbaa69946d75c3e11feb476b18b5a7e2f3
-  original:
-    hackage: persistent-sqlite-2.10.6.2
-- completed:
-    hackage: persistent-template-2.8.2.3@sha256:ba78a04cba858038644e39d3a5633202580f1375335623e85bede5df1dc91f58,2864
-    pantry-tree:
-      size: 561
-      sha256: 27176fcd4af689047c3ec5571e36efa4031a9a908409d3ced250f835bb1c4edf
-  original:
-    hackage: persistent-template-2.8.2.3
-- completed:
-    hackage: github-0.24@sha256:4bf5a06289d36f78bf347b6a4f9906f659be7335cde78386a6c95568714a730b,6955
-    pantry-tree:
-      size: 7105
-      sha256: e0f84d7a3cdd76c6bd5395c8c72d24a1dda9616f857291820b08947c8290f042
-  original:
-    hackage: github-0.24
-- completed:
-    hackage: github-webhooks-0.12.0@sha256:38dfaca212c2b75d6a10e270909d42c820f7968cb5937bebc76af0e72c66b058,3911
-    pantry-tree:
-      size: 3448
-      sha256: 6c0fe2f434451ffb8fe4d4652c230cfe57f9c8a647ae66ab420afc7c6de06598
-  original:
-    hackage: github-webhooks-0.12.0
-- completed:
     hackage: monoidal-containers-0.6.0.1@sha256:ffdfae0fde7a08e9e314667a78d86454d2d23137d85f226ec6e757c190fb28ad,2583
     pantry-tree:
       size: 569
@@ -291,19 +269,12 @@ packages:
   original:
     hackage: monoidal-containers-0.6.0.1
 - completed:
-    hackage: monad-stm-0.1.0.2@sha256:68c509a631cbb2f49c3e8b37527d281e6fdafbedac63a4c6fa69c98f4e0b2506,1732
+    hackage: recursion-schemes-5.1.3@sha256:cbcf3c36e1733a83fb8cda305bde2de18a2fbab53692e3301263964def430107,3523
     pantry-tree:
-      size: 219
-      sha256: b9766739e8a87b3a8d34350673e49927fa4fcde5710b573d748b2d0cd5892cea
+      size: 719
+      sha256: 617f5740281ab044b0205b5a2810bfa8efc6b858705fe8caff5438a382bcfd96
   original:
-    hackage: monad-stm-0.1.0.2
-- completed:
-    hackage: prometheus-2.1.3@sha256:4fdf8602f7c74367cda182cf71dab108f78a86993b428bf96b61dd6c519b6f22,4296
-    pantry-tree:
-      size: 1559
-      sha256: a8d0a0150abddf0d7b673fcb19ff2ef235d4005161826e1538ad802394c9fc0e
-  original:
-    hackage: prometheus-2.1.3
+    hackage: recursion-schemes-5.1.3
 - completed:
     hackage: row-types-0.4.0.0@sha256:adf9dcf41e44e61c443a02cb9927740ea211e4cf60e68fb9d7b312da7bdd33be,3579
     pantry-tree:
@@ -333,68 +304,12 @@ packages:
   original:
     hackage: time-units-1.0.0@sha256:27cf54091c4a0ca73d504fc11d5c31ab4041d17404fe3499945e2055697746c1
 - completed:
-    hackage: th-utilities-0.2.4.0@sha256:ba19cd8441aa43dbaed40e9055bb5a7cbd7cf9e154f5253c6bf9293af8b1f96b,1869
-    pantry-tree:
-      size: 882
-      sha256: 8c577d112a8398a5542aa4205b2e8a470a66d57590e6606d752d71e75d7425ea
-  original:
-    hackage: th-utilities-0.2.4.0
-- completed:
-    hackage: servant-0.16.2@sha256:6c5d19d09a9dd2f2b2bf99193f944491f8374802678b79ec729e3f3ae51e216d,5867
-    pantry-tree:
-      size: 2604
-      sha256: bee4504840cf4836326e85f1cf02584bf898188b64d976dac6c6c6793d926794
-  original:
-    hackage: servant-0.16.2
-- completed:
-    hackage: servant-options-0.1.0.0@sha256:39f50166a68006250e79370372f553ca476f14d06d93fa0c401050253aeba803,914
-    pantry-tree:
-      size: 293
-      sha256: 7812baf1b27c62068ba634207fbd7077b886424d666b36739a78c6d4008a1fd4
-  original:
-    hackage: servant-options-0.1.0.0
-- completed:
-    hackage: servant-github-webhook-0.4.1.0@sha256:6ac456ccc6a2a96b30a7b80cd91b121f1b7e9bd33635641a6afbd6137700a753,2754
-    pantry-tree:
-      size: 576
-      sha256: f00112fb96ffe1caa7076a466868af0b47eed0ffea92792b3cde5a5e369a7005
-  original:
-    hackage: servant-github-webhook-0.4.1.0@sha256:6ac456ccc6a2a96b30a7b80cd91b121f1b7e9bd33635641a6afbd6137700a753
-- completed:
-    hackage: servant-client-0.16.0.1@sha256:f970ad4e927530b77f52b99a175c85cfdcd1ef988083d56a1f68c6a3dafe8d51,4376
-    pantry-tree:
-      size: 804
-      sha256: 3690a9c4dbdf8a502648c8c29029b1a0c78e53fd84db90ed388f7abbf5518c25
-  original:
-    hackage: servant-client-0.16.0.1
-- completed:
-    hackage: servant-client-core-0.16@sha256:34e28b8d59b0b61fb3c97fb61043583538016898604a67bfa3bb35f02d8e4d9c,3545
-    pantry-tree:
-      size: 1365
-      sha256: d1a8c41b18e9648af8f1221c7747246ecde2a2ce2bae697c3c986f02a0caf857
-  original:
-    hackage: servant-client-core-0.16
-- completed:
-    hackage: servant-server-0.16.2@sha256:f6b36df7c4f1688ff9d48d272e6cfc5f001b3221d2a732e73faf44e8b9e1ea04,5798
-    pantry-tree:
-      size: 2517
-      sha256: 12330638c1b455050d19ad0797b35893efbb5cd233789581eae93cc8983a84c3
-  original:
-    hackage: servant-server-0.16.2
-- completed:
     hackage: servant-websockets-2.0.0@sha256:6e9e3600bced90fd52ed3d1bf632205cb21479075b20d6637153cc4567000234,2253
     pantry-tree:
       size: 523
       sha256: 085c6620bff7671bef1d969652a349271c3703fbf10dd753cb63ee1cd700bca5
   original:
     hackage: servant-websockets-2.0.0
-- completed:
-    hackage: servant-foreign-0.15@sha256:d252c7b33236a3d2ddfa7b0587cc59d52a2c16c0343cbc59c15ac10d1e3abf2b,2789
-    pantry-tree:
-      size: 590
-      sha256: 264559d07462e0932ea947c284081f8c041e5fa17182b650620bebe857b289a4
-  original:
-    hackage: servant-foreign-0.15
 - completed:
     hackage: servant-subscriber-0.7.0.0@sha256:e54a3ca6d52227025081bbc470a3af35efecbe0f82050d06aa5c9bbdf05795a6,2635
     pantry-tree:
@@ -403,13 +318,6 @@ packages:
   original:
     hackage: servant-subscriber-0.7.0.0
 - completed:
-    hackage: servant-swagger-1.1.7.1@sha256:9b0bc99cbd399b47630fc56f05eb8b7d05f1b26cd941faf24b036b7ada1d4946,4647
-    pantry-tree:
-      size: 1636
-      sha256: 8a990a301f2ff81843edea539bddd0f2b13b95a8001922bada69361d8db7e401
-  original:
-    hackage: servant-swagger-1.1.7.1
-- completed:
     hackage: safe-exceptions-checked-0.1.0@sha256:ae142f284c6b102f0e7606a69a5719f4f72771d9cc353af72fa4484326689100,1603
     pantry-tree:
       size: 298
@@ -417,26 +325,19 @@ packages:
   original:
     hackage: safe-exceptions-checked-0.1.0
 - completed:
-    hackage: async-timer-0.2.0.0@sha256:e1504aa0fb5932cb07498ec548180aba9e03a3e7f5d2c810bf3dce75fbdd34d6,2048
+    hackage: async-timer-0.1.4.1@sha256:2f5c4ced218f0bce5872cee1f9eca94647a3ecb05ceacedccef1214cc39d68b7,1983
     pantry-tree:
-      size: 420
-      sha256: f6e0f4929cf25a1b6e732cbc9c7a8902e922d8c989c3cf9e0623052847857c94
+      size: 506
+      sha256: 2dcd1dc815fdf68d1bc4c3ad296af3236d178053a810f38cc1fe0d401dc800a1
   original:
-    hackage: async-timer-0.2.0.0
+    hackage: async-timer-0.1.4.1
 - completed:
-    hackage: sbv-8.6@sha256:1bcd7a8851157a97e44a000498f984fb738e54441f16e8c2e2afcc1d0818e888,19781
+    hackage: sbv-8.9@sha256:efb0f16c671869805e57d11e269793d5e5ae512e8e626582cf76b8e46a63e9c6,28985
     pantry-tree:
-      size: 54568
-      sha256: ee73d9d941f7d41d21409927a058aed6bb473f3ae4383ef51bd021b80c120bc5
+      size: 62515
+      sha256: 9bb3bb8dbb26363388e013c795e60e81f9b243ecac6e28b3e9d7079c083ebdf4
   original:
-    hackage: sbv-8.6
-- completed:
-    hackage: random-strings-0.1.1.0@sha256:935a7a23dab45411960df77636a29b44ce42b89eeb15f2b1e809d771491fa677,2517
-    pantry-tree:
-      size: 663
-      sha256: 5a382966fdd8d5220b5791f3bff6db00d2ea29235e2716dadd52461b8a8beb97
-  original:
-    hackage: random-strings-0.1.1.0@sha256:935a7a23dab45411960df77636a29b44ce42b89eeb15f2b1e809d771491fa677,2517
+    hackage: sbv-8.9
 - completed:
     hackage: wl-pprint-1.2.1@sha256:aea676cff4a062d7d912149d270e33f5bb0c01b68a9db46ff13b438141ff4b7c,734
     pantry-tree:
@@ -445,70 +346,12 @@ packages:
   original:
     hackage: wl-pprint-1.2.1@sha256:aea676cff4a062d7d912149d270e33f5bb0c01b68a9db46ff13b438141ff4b7c
 - completed:
-    hackage: inline-r-0.10.3@sha256:d2a4faddf4b3226c05ce4a0dd0cb4876758ba45632048b9ba04accb97c1f145f,7934
+    hackage: witherable-0.4.1@sha256:5b4840efe20d16cab6b13fa2f39ed383703cccbc246f5b710591069fcc6884c0,2249
     pantry-tree:
-      size: 4455
-      sha256: 5648f04a76c2481114935f7216bb00c57e4ea386dc91a6b6fad61275d99fb9fe
+      size: 384
+      sha256: 04dcdcc8bbb860ac0a5ead297f03b29a81a06e26d739fca99770388513bc0550
   original:
-    hackage: inline-r-0.10.3
-- completed:
-    hackage: witherable-0.3.5@sha256:6590a15735b50ac14dcc138d4265ff1585d5f3e9d3047d5ebc5abf4cd5f50084,1476
-    pantry-tree:
-      size: 271
-      sha256: b99f21dbac28da031eb7c787fbffbe5e77e0aee42b64b5dda082470e907d5ab5
-  original:
-    hackage: witherable-0.3.5
-- completed:
-    hackage: witherable-class-0@sha256:91f05518f9f4af5b02424f13ee7dcdab5d6618e01346aa2f388a72ff93e2e501,775
-    pantry-tree:
-      size: 277
-      sha256: e99696bf95da593a3892c7b9a28db09ffd139b4b1b313f32cec9d26979aa7ce2
-  original:
-    hackage: witherable-class-0
-- completed:
-    name: purescript-bridge
-    version: 0.13.1.0
-    git: https://github.com/shmish111/purescript-bridge.git
-    pantry-tree:
-      size: 1562
-      sha256: 13808979bbfd9336ab2e816b42c1f2b3cb93c2c2e09d00c1a5349cfe82fcf54d
-    commit: 28c37771ef30b0d751960c061ef95627f05d290e
-  original:
-    git: https://github.com/shmish111/purescript-bridge.git
-    commit: 28c37771ef30b0d751960c061ef95627f05d290e
-- completed:
-    name: servant-purescript
-    version: 0.9.0.2
-    git: https://github.com/shmish111/servant-purescript.git
-    pantry-tree:
-      size: 2583
-      sha256: 711c08275466e1ad5a180ae6b325a9de35cab04457ae202a6bbaec2c951e1984
-    commit: ece5d1dad16a5731ac22040075615803796c7c21
-  original:
-    git: https://github.com/shmish111/servant-purescript.git
-    commit: ece5d1dad16a5731ac22040075615803796c7c21
-- completed:
-    name: cardano-crypto
-    version: 1.1.0
-    git: https://github.com/input-output-hk/cardano-crypto.git
-    pantry-tree:
-      size: 5282
-      sha256: dd0cccf3ea66557d90599f596467ca0c4a758b644393da913629572cb83c5613
-    commit: 2547ad1e80aeabca2899951601079408becbc92c
-  original:
-    git: https://github.com/input-output-hk/cardano-crypto.git
-    commit: 2547ad1e80aeabca2899951601079408becbc92c
-- completed:
-    name: unlit
-    version: 0.4.0.1
-    git: https://github.com/michaelpj/unlit.git
-    pantry-tree:
-      size: 15043
-      sha256: 349d9403d216d1eaea58c3f769880d954a243209bf25c46d59672653ca1c75a1
-    commit: 9ca1112093c5ffd356fc99c7dafa080e686dd748
-  original:
-    git: https://github.com/michaelpj/unlit.git
-    commit: 9ca1112093c5ffd356fc99c7dafa080e686dd748
+    hackage: witherable-0.4.1
 - completed:
     hackage: canonical-json-0.6.0.0@sha256:9021f435ccb884a3b4c55bcc6b50eb19d5fc3cc3f29d5fcbdef016f5bbae23a2,3488
     pantry-tree:
@@ -524,18 +367,62 @@ packages:
   original:
     hackage: statistics-linreg-0.3@sha256:95c6efe6c7f6b26bc6e9ada90ab2d18216371cf59a6ef2b517b4a6fd35d9a76f,2544
 - completed:
+    name: purescript-bridge
+    version: 0.13.1.0
+    git: https://github.com/shmish111/purescript-bridge.git
+    pantry-tree:
+      size: 1562
+      sha256: 21ce2905f0748a68a8a51e8bd43d00337e3cdba65f26d914c16f7ddd47d91169
+    commit: 6a92d7853ea514be8b70bab5e72077bf5a510596
+  original:
+    git: https://github.com/shmish111/purescript-bridge.git
+    commit: 6a92d7853ea514be8b70bab5e72077bf5a510596
+- completed:
+    name: servant-purescript
+    version: 0.9.0.4
+    git: https://github.com/eskimor/servant-purescript.git
+    pantry-tree:
+      size: 2542
+      sha256: e73646e46322422f8acb7769fb56fee1ae7a11d87bead0910050e62cc3f66e4b
+    commit: 6454d5bcb9aa2a5d6e3a3dc935423b67b6f3993c
+  original:
+    git: https://github.com/eskimor/servant-purescript.git
+    commit: 6454d5bcb9aa2a5d6e3a3dc935423b67b6f3993c
+- completed:
+    name: cardano-crypto
+    version: 1.1.0
+    git: https://github.com/input-output-hk/cardano-crypto.git
+    pantry-tree:
+      size: 5300
+      sha256: e47672988b56ef3c3bae513ab3cc1a50d492c75f598fcfb234d1db37bbacbada
+    commit: f73079303f663e028288f9f4a9e08bcca39a923e
+  original:
+    git: https://github.com/input-output-hk/cardano-crypto.git
+    commit: f73079303f663e028288f9f4a9e08bcca39a923e
+- completed:
+    name: unlit
+    version: 0.4.0.1
+    git: https://github.com/michaelpj/unlit.git
+    pantry-tree:
+      size: 15043
+      sha256: 349d9403d216d1eaea58c3f769880d954a243209bf25c46d59672653ca1c75a1
+    commit: 9ca1112093c5ffd356fc99c7dafa080e686dd748
+  original:
+    git: https://github.com/michaelpj/unlit.git
+    commit: 9ca1112093c5ffd356fc99c7dafa080e686dd748
+- completed:
     subdir: typed-protocols
     name: typed-protocols
     version: 0.1.0.0
     git: https://github.com/input-output-hk/ouroboros-network
     pantry-tree:
       size: 536
-      sha256: c03a79f4572a16b0a152faf6f53a94ed2bf36c8fee1e756a3bccf7ebadfc3db0
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+      sha256: 34c500ed366101448d398b5f60d4e9b74393e1bf05ef7b05a32cfc5a7f1c779c
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
   original:
     subdir: typed-protocols
     git: https://github.com/input-output-hk/ouroboros-network
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
 - completed:
     subdir: typed-protocols-examples
     name: typed-protocols-examples
@@ -543,25 +430,25 @@ packages:
     git: https://github.com/input-output-hk/ouroboros-network
     pantry-tree:
       size: 1469
-      sha256: b77578a097661a5062fcf519f4bcc17c67a33b8f960d99914732a8abbf468235
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+      sha256: 99a868ebf13948ea3f7ba97748bed647f1e5527b46e0e4016769c364775aec9b
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
   original:
     subdir: typed-protocols-examples
     git: https://github.com/input-output-hk/ouroboros-network
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
 - completed:
     subdir: ouroboros-network
     name: ouroboros-network
     version: 0.1.0.0
     git: https://github.com/input-output-hk/ouroboros-network
     pantry-tree:
-      size: 10456
-      sha256: 5b5d85a3b191aff579a6477eff8071dad1d9a2e989ef5199bcc453d0a5ddf9c6
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+      size: 11450
+      sha256: 7f578d18d04a28e2ee4f560a60b3d8ae8efebd93f9f6f8d8b4316b2e3250fc9c
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
   original:
     subdir: ouroboros-network
     git: https://github.com/input-output-hk/ouroboros-network
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
 - completed:
     subdir: ouroboros-network-framework
     name: ouroboros-network-framework
@@ -569,51 +456,51 @@ packages:
     git: https://github.com/input-output-hk/ouroboros-network
     pantry-tree:
       size: 3672
-      sha256: 48b6631979c177cfcfd1146a1db9968e4dee6b8f2f8d12f8544882889727a563
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+      sha256: bc7e78d79eda80976994b8fa0826c770d6a28718f1823b914b082970dd1bc4a1
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
   original:
     subdir: ouroboros-network-framework
     git: https://github.com/input-output-hk/ouroboros-network
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
 - completed:
     subdir: io-sim
     name: io-sim
-    version: 0.1.0.0
+    version: 0.2.0.0
     git: https://github.com/input-output-hk/ouroboros-network
     pantry-tree:
-      size: 388
-      sha256: cc387dbdb3124f71eb71b928adce6479d93c727dac34cc13bf5437375516cbdb
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+      size: 565
+      sha256: 54ea6c96cf648ad25cde7c8808980f7ae56166f271f3c60fbdbe8d183365dc79
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
   original:
     subdir: io-sim
     git: https://github.com/input-output-hk/ouroboros-network
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
 - completed:
     subdir: io-sim-classes
     name: io-sim-classes
-    version: 0.1.0.0
+    version: 0.2.0.0
     git: https://github.com/input-output-hk/ouroboros-network
     pantry-tree:
-      size: 1053
-      sha256: 9d9637341b4b52bd31430b35b6510c04e0c5fd83d6440528850b7b08bfd0be78
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+      size: 1155
+      sha256: 7eeace159b8b4dcc8b5de1ba6a36854813d378730bfd33eeab9728ade8466986
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
   original:
     subdir: io-sim-classes
     git: https://github.com/input-output-hk/ouroboros-network
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
 - completed:
     subdir: network-mux
     name: network-mux
     version: 0.1.0.0
     git: https://github.com/input-output-hk/ouroboros-network
     pantry-tree:
-      size: 1939
-      sha256: 62e88bb3251ccdee9736c5ed69f28db3a02dae60a148e506d680db88032d6229
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+      size: 2001
+      sha256: 460cf84a260f5b0e1fb903548a207a9acbd1c90b79aca2ca817eb40bb26b4a8c
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
   original:
     subdir: network-mux
     git: https://github.com/input-output-hk/ouroboros-network
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
 - completed:
     subdir: Win32-network
     name: Win32-network
@@ -621,45 +508,38 @@ packages:
     git: https://github.com/input-output-hk/ouroboros-network
     pantry-tree:
       size: 1802
-      sha256: 99ddf2b122413eaa8ed737219a602e4f823b53b2f63deb5125d179828fec818a
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+      sha256: ab10afa874c12ba891c44f00a34273d8eb607816e957af5cd4257d1797f415b2
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
   original:
     subdir: Win32-network
     git: https://github.com/input-output-hk/ouroboros-network
-    commit: 75153affa23a0e68e035d7bb19880fe1ae35b1d4
+    commit: 6cb9052bde39472a0555d19ade8a42da63d3e904
 - completed:
-    subdir: .
+    subdir: cardano-prelude
     name: cardano-prelude
     version: 0.1.0.0
     git: https://github.com/input-output-hk/cardano-prelude
     pantry-tree:
-      size: 4531
-      sha256: 8c611734680c46d6ee1714b5b76e48df615910566f5c56a7f3821eb1581e7859
-    commit: 71ea865408f2e03e6d6832359423546699730849
+      size: 1654
+      sha256: 4104e66a34e8b8efa0794c38ed12a1c2c42fd0c8674b2e23bfd35f69b0940566
+    commit: ee4e7b547a991876e6b05ba542f4e62909f4a571
   original:
-    subdir: .
+    subdir: cardano-prelude
     git: https://github.com/input-output-hk/cardano-prelude
-    commit: 71ea865408f2e03e6d6832359423546699730849
+    commit: ee4e7b547a991876e6b05ba542f4e62909f4a571
 - completed:
-    subdir: test
+    subdir: cardano-prelude-test
     name: cardano-prelude-test
     version: 0.1.0.0
     git: https://github.com/input-output-hk/cardano-prelude
     pantry-tree:
-      size: 1153
-      sha256: bd6687f172eb8150e5f0142a49349180f9ac611ade8cbb4bf6b778b9ffc5266f
-    commit: 71ea865408f2e03e6d6832359423546699730849
+      size: 1130
+      sha256: 5738518f918a2c7da4ee6ed6c7ffc68a9f99075dfc6fd8b2c2faf82da1046900
+    commit: ee4e7b547a991876e6b05ba542f4e62909f4a571
   original:
-    subdir: test
+    subdir: cardano-prelude-test
     git: https://github.com/input-output-hk/cardano-prelude
-    commit: 71ea865408f2e03e6d6832359423546699730849
-- completed:
-    hackage: nonempty-containers-0.3.3.0@sha256:f306bdbb271fb43057e0205293915bbfafc92f9960d89c0ea457625aad752eca,2717
-    pantry-tree:
-      size: 1480
-      sha256: 36b68ccc26d582dfdcd363ee6e88f283274fbf344907c38de5b678ffe0a3888e
-  original:
-    hackage: nonempty-containers-0.3.3.0
+    commit: ee4e7b547a991876e6b05ba542f4e62909f4a571
 - completed:
     subdir: binary
     name: cardano-binary
@@ -667,129 +547,207 @@ packages:
     git: https://github.com/input-output-hk/cardano-base
     pantry-tree:
       size: 1884
-      sha256: b91847fafaf9798a563b6834ab9469fc2d573059662beee4ea8c07c17e485d94
-    commit: 5035c9ed95e9d47f050314a7d96b1b2043288f61
+      sha256: dea1758ab230f70b17303e2f3730a580e233caa35dfdfb4d4403d76e2a05b1e6
+    commit: 4251c0bb6e4f443f00231d28f5f70d42876da055
   original:
     subdir: binary
     git: https://github.com/input-output-hk/cardano-base
-    commit: 5035c9ed95e9d47f050314a7d96b1b2043288f61
-- completed:
-    subdir: binary/test
-    name: cardano-binary-test
-    version: 1.3.0
-    git: https://github.com/input-output-hk/cardano-base
-    pantry-tree:
-      size: 1007
-      sha256: e86851cebba16ed9ab7cb76d4531a391ef37f19eb0fc24efdc7b3a7f77efef56
-    commit: 5035c9ed95e9d47f050314a7d96b1b2043288f61
-  original:
-    subdir: binary/test
-    git: https://github.com/input-output-hk/cardano-base
-    commit: 5035c9ed95e9d47f050314a7d96b1b2043288f61
+    commit: 4251c0bb6e4f443f00231d28f5f70d42876da055
 - completed:
     subdir: cardano-crypto-class
     name: cardano-crypto-class
     version: 2.0.0
     git: https://github.com/input-output-hk/cardano-base
     pantry-tree:
-      size: 2512
-      sha256: db6612dbce5e18f5826f42a00b6aa62e4a76bab9da09ff164d3116416bac5eb2
-    commit: 5035c9ed95e9d47f050314a7d96b1b2043288f61
+      size: 3360
+      sha256: 88eef9243284d02649ae03120310c074c8efc71e1704aab0db38cb21369e76ab
+    commit: 4251c0bb6e4f443f00231d28f5f70d42876da055
   original:
     subdir: cardano-crypto-class
     git: https://github.com/input-output-hk/cardano-base
-    commit: 5035c9ed95e9d47f050314a7d96b1b2043288f61
+    commit: 4251c0bb6e4f443f00231d28f5f70d42876da055
+- completed:
+    subdir: cardano-crypto-tests
+    name: cardano-crypto-tests
+    version: 2.0.0
+    git: https://github.com/input-output-hk/cardano-base
+    pantry-tree:
+      size: 879
+      sha256: 6644badc2ba56908112d6b824c24ee39a1c25ccb73776fcaee42c21f34ae41a1
+    commit: 4251c0bb6e4f443f00231d28f5f70d42876da055
+  original:
+    subdir: cardano-crypto-tests
+    git: https://github.com/input-output-hk/cardano-base
+    commit: 4251c0bb6e4f443f00231d28f5f70d42876da055
+- completed:
+    subdir: cardano-crypto-praos
+    name: cardano-crypto-praos
+    version: 2.0.0
+    git: https://github.com/input-output-hk/cardano-base
+    pantry-tree:
+      size: 1886
+      sha256: 3ee62b10ab4c0470dd6a6c86e0b4f0071fb5c37c0b8ed03dd3a30533ed3633a6
+    commit: 4251c0bb6e4f443f00231d28f5f70d42876da055
+  original:
+    subdir: cardano-crypto-praos
+    git: https://github.com/input-output-hk/cardano-base
+    commit: 4251c0bb6e4f443f00231d28f5f70d42876da055
 - completed:
     subdir: slotting
     name: cardano-slotting
     version: 0.1.0.0
     git: https://github.com/input-output-hk/cardano-base
     pantry-tree:
-      size: 648
-      sha256: 767604ffa38d3f7c8733c574d86b61e5687cf1d0fb9909c7e84ea71ba2284bf1
-    commit: 5035c9ed95e9d47f050314a7d96b1b2043288f61
+      size: 572
+      sha256: d98cc993d23bf26f406ec72d1de957fa07a3fc1644400a0a659ffb9dee1592e6
+    commit: 4251c0bb6e4f443f00231d28f5f70d42876da055
   original:
     subdir: slotting
     git: https://github.com/input-output-hk/cardano-base
-    commit: 5035c9ed95e9d47f050314a7d96b1b2043288f61
+    commit: 4251c0bb6e4f443f00231d28f5f70d42876da055
 - completed:
     subdir: byron/chain/executable-spec
     name: byron-spec-chain
     version: 0.1.0.0
-    git: https://github.com/raduom/cardano-ledger-specs
+    git: https://github.com/input-output-hk/cardano-ledger-specs
     pantry-tree:
-      size: 1031
-      sha256: 643ed23bd7f42c348e73abb6c911b08f96341d4640582753d8787720c2527b3b
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+      size: 1029
+      sha256: d7de96109d318c8ab12680193ce6b308fffa24834a0c38b138e93bdf8d8a405b
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
   original:
     subdir: byron/chain/executable-spec
-    git: https://github.com/raduom/cardano-ledger-specs
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
+- completed:
+    subdir: byron/crypto
+    name: cardano-crypto-wrapper
+    version: 1.3.0
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    pantry-tree:
+      size: 4430
+      sha256: 08c55c47b1eda422833d69c326698f4a4da478a12ebbad19606747f9b3119c5c
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
+  original:
+    subdir: byron/crypto
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
+- completed:
+    subdir: byron/crypto/test
+    name: cardano-crypto-test
+    version: 1.3.0
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    pantry-tree:
+      size: 2364
+      sha256: 207b9bdbf33fd2e8515a4d1174530d7fcce8dd4e651e5de6e72fa9b90b1b3acd
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
+  original:
+    subdir: byron/crypto/test
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
 - completed:
     subdir: byron/ledger/executable-spec
     name: byron-spec-ledger
     version: 0.1.0.0
-    git: https://github.com/raduom/cardano-ledger-specs
+    git: https://github.com/input-output-hk/cardano-ledger-specs
     pantry-tree:
-      size: 4943
-      sha256: 59ed286c2eb93f75a96db4b4c5e32aab2cda2ce269322cb9e0bd9b8efb819bd5
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+      size: 5043
+      sha256: 06860258f503ef286eb56f70e15988e8c91d9b3528d1360fd8cabaa12d94f6a9
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
   original:
     subdir: byron/ledger/executable-spec
-    git: https://github.com/raduom/cardano-ledger-specs
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
+- completed:
+    subdir: byron/ledger/impl
+    name: cardano-ledger
+    version: 0.1.0.0
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    pantry-tree:
+      size: 19574
+      sha256: 9cd4a4bb3bd1943695044edc05d25d04db574ccd2bb92d9567993484075ca6d4
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
+  original:
+    subdir: byron/ledger/impl
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
+- completed:
+    subdir: byron/ledger/impl/test
+    name: cardano-ledger-test
+    version: 1.3.0
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    pantry-tree:
+      size: 11347
+      sha256: 4c736e4b2603138fcc2a3c92fc0e955691a503540c496170af8274096a6c54e1
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
+  original:
+    subdir: byron/ledger/impl/test
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
 - completed:
     subdir: semantics/executable-spec
     name: small-steps
     version: 0.1.0.0
-    git: https://github.com/raduom/cardano-ledger-specs
+    git: https://github.com/input-output-hk/cardano-ledger-specs
     pantry-tree:
-      size: 1367
-      sha256: d3d7368f098881a212e10423adb84953947a47475069ff3ea56cb61991d5c2b8
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+      size: 1140
+      sha256: c8f7843de1f2bb1d67a85c24eb780e33469a4403b9d108300ebad241da9b020f
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
   original:
     subdir: semantics/executable-spec
-    git: https://github.com/raduom/cardano-ledger-specs
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
+- completed:
+    subdir: semantics/small-steps-test
+    name: small-steps-test
+    version: 0.1.0.0
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    pantry-tree:
+      size: 972
+      sha256: a4648e13d0c2784bcd2b3696b765b496627f7f95e683bf315057c01c511128c7
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
+  original:
+    subdir: semantics/small-steps-test
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
 - completed:
     subdir: shelley/chain-and-ledger/dependencies/non-integer
     name: shelley-spec-non-integral
     version: 0.1.0.0
-    git: https://github.com/raduom/cardano-ledger-specs
+    git: https://github.com/input-output-hk/cardano-ledger-specs
     pantry-tree:
-      size: 1939
-      sha256: ddfa7acc3e55a6f3d8cff48e3ba4bcd8d77cb858e842f38c4065550f2a2cbb65
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+      size: 1892
+      sha256: 0ad352903164716228c9155155a14981eb1497e21ca9b169c0dc77da58955e3c
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
   original:
     subdir: shelley/chain-and-ledger/dependencies/non-integer
-    git: https://github.com/raduom/cardano-ledger-specs
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
 - completed:
     subdir: shelley/chain-and-ledger/executable-spec
     name: shelley-spec-ledger
     version: 0.1.0.0
-    git: https://github.com/raduom/cardano-ledger-specs
+    git: https://github.com/input-output-hk/cardano-ledger-specs
     pantry-tree:
-      size: 7522
-      sha256: 9c3a313ca47f259a038b05a020f1502269a5e61e839f8c366dd0b574cab9ab9f
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+      size: 5772
+      sha256: 24fe560ee507b12fe19dee7c3c6f800437d47ccd5a20751b8b431686d5d7f987
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
   original:
     subdir: shelley/chain-and-ledger/executable-spec
-    git: https://github.com/raduom/cardano-ledger-specs
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
 - completed:
-    subdir: shelley/chain-and-ledger/executable-spec/test
-    name: shelley-spec-ledger-test
+    subdir: shelley-ma/impl
+    name: cardano-ledger-shelley-ma
     version: 0.1.0.0
-    git: https://github.com/raduom/cardano-ledger-specs
+    git: https://github.com/input-output-hk/cardano-ledger-specs
     pantry-tree:
-      size: 3130
-      sha256: 01d5d98c34c650d515059beb49380f862072fa3c80751183572c5fe29fed8856
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+      size: 1115
+      sha256: 7b0573d86401bef28cb27ffc1676b1534c239cd687b8536a409d9ae942210a43
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
   original:
-    subdir: shelley/chain-and-ledger/executable-spec/test
-    git: https://github.com/raduom/cardano-ledger-specs
-    commit: 2cac85306d8b3e07006e9081f36ce7ebf2d9d0a3
+    subdir: shelley-ma/impl
+    git: https://github.com/input-output-hk/cardano-ledger-specs
+    commit: 097890495cbb0e8b62106bcd090a5721c3f4b36f
 - completed:
     subdir: contra-tracer
     name: contra-tracer
@@ -798,24 +756,24 @@ packages:
     pantry-tree:
       size: 338
       sha256: 7902fbc68aba33d6f139d0815a6e71e704a62684bf2bddaca9959e569301f25d
-    commit: 5c9627b6aee487f9b7ec44981aba57a6afc659b1
+    commit: a89c38ed5825ba17ca79fddb85651007753d699d
   original:
     subdir: contra-tracer
     git: https://github.com/input-output-hk/iohk-monitoring-framework
-    commit: 5c9627b6aee487f9b7ec44981aba57a6afc659b1
+    commit: a89c38ed5825ba17ca79fddb85651007753d699d
 - completed:
     subdir: iohk-monitoring
     name: iohk-monitoring
     version: 0.1.10.1
     git: https://github.com/input-output-hk/iohk-monitoring-framework
     pantry-tree:
-      size: 4798
-      sha256: 18d797ad667b9472f333ee1f67d3d90216814654e92b8582627e962b52ca4af9
-    commit: 5c9627b6aee487f9b7ec44981aba57a6afc659b1
+      size: 4944
+      sha256: 695781d60886a9a223b2e7bd9a9ee303510b4f6e84149eb4fb054ec89ad7581f
+    commit: a89c38ed5825ba17ca79fddb85651007753d699d
   original:
     subdir: iohk-monitoring
     git: https://github.com/input-output-hk/iohk-monitoring-framework
-    commit: 5c9627b6aee487f9b7ec44981aba57a6afc659b1
+    commit: a89c38ed5825ba17ca79fddb85651007753d699d
 - completed:
     subdir: tracer-transformers
     name: tracer-transformers
@@ -823,12 +781,12 @@ packages:
     git: https://github.com/input-output-hk/iohk-monitoring-framework
     pantry-tree:
       size: 631
-      sha256: d9faf51838289c6dafa05206801d9df8c032af85874e030c845b668bba689765
-    commit: 5c9627b6aee487f9b7ec44981aba57a6afc659b1
+      sha256: b774352920631cfe54b8d947a063999a8327d259f95ed0e25671ad8ac90a02d0
+    commit: a89c38ed5825ba17ca79fddb85651007753d699d
   original:
     subdir: tracer-transformers
     git: https://github.com/input-output-hk/iohk-monitoring-framework
-    commit: 5c9627b6aee487f9b7ec44981aba57a6afc659b1
+    commit: a89c38ed5825ba17ca79fddb85651007753d699d
 - completed:
     subdir: plugins/backend-ekg
     name: lobemo-backend-ekg
@@ -837,14 +795,14 @@ packages:
     pantry-tree:
       size: 409
       sha256: 8b5708e3aa9b94d51e2f6186057117d9eb912a80968c597f55883c3adf0e7057
-    commit: 5c9627b6aee487f9b7ec44981aba57a6afc659b1
+    commit: a89c38ed5825ba17ca79fddb85651007753d699d
   original:
     subdir: plugins/backend-ekg
     git: https://github.com/input-output-hk/iohk-monitoring-framework
-    commit: 5c9627b6aee487f9b7ec44981aba57a6afc659b1
+    commit: a89c38ed5825ba17ca79fddb85651007753d699d
 snapshots:
 - completed:
-    size: 520865
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2020/8/17.yaml
-    sha256: 700c74c4e263f34ccb9937561eee52454dd435ec96119e2eef2d50adc4fd58a8
-  original: nightly-2020-08-17
+    size: 563099
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/17/2.yaml
+    sha256: 92b1a17e31d0a978fca4bf270305d4d1dd8092271bf60eafbc9349c890854026
+  original: lts-17.2
