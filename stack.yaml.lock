@@ -109,6 +109,32 @@ packages:
     git: https://github.com/input-output-hk/plutus.git
     commit: ba9cb287addd19e602991a4a5c6c4c011321c506
 - completed:
+    subdir: plutus-pab
+    name: plutus-pab
+    version: 0.1.0.0
+    git: https://github.com/input-output-hk/plutus.git
+    pantry-tree:
+      size: 7177
+      sha256: 16f12f1172540c4672fc22af8a88a6444fbfd287093812b01c120f605921198a
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
+  original:
+    subdir: plutus-pab
+    git: https://github.com/input-output-hk/plutus.git
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
+- completed:
+    subdir: plutus-use-cases
+    name: plutus-use-cases
+    version: 0.1.0.0
+    git: https://github.com/input-output-hk/plutus.git
+    pantry-tree:
+      size: 5220
+      sha256: 5d1192d51f882ab148ba74736ebff3cdce01a3a7fccc70b3d193792aa462aef3
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
+  original:
+    subdir: plutus-use-cases
+    git: https://github.com/input-output-hk/plutus.git
+    commit: ba9cb287addd19e602991a4a5c6c4c011321c506
+- completed:
     subdir: freer-extras
     name: freer-extras
     version: 0.1.0.0

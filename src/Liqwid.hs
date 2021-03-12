@@ -3,16 +3,12 @@ module Liqwid where
 import qualified Data.Text                 as T
 import           Language.Plutus.Contract  hiding (when)
 import           Language.PlutusTx.Prelude
-import           Playground.Contract
 
--- | A 'Contract' that logs a message.
-hello :: Contract BlockchainActions T.Text ()
-hello = logInfo @String "Hello, world"
+import Plutus.PAB.ContractCLI                     (commandLineApp)
 
-endpoints :: Contract BlockchainActions T.Text ()
-endpoints = hello
+hello :: Contract () BlockchainActions T.Text ()
+hello =  logInfo @T.Text "Hello World"
 
-mkSchemaDefinitions ''BlockchainActions
 
-$(mkKnownCurrencies [])
-
+contractCliMain :: IO ()
+contractCliMain = commandLineApp hello

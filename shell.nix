@@ -27,6 +27,12 @@ let
   plutus_pab_conf      = (import ./pab_conf.nix) // { client = plutus_pab_client; };
   plutus_pab_conf_file = plutus.plutus-pab.mkConf plutus_pab_conf;
 
+  # The plutus build by default misses this
+  plutus_ledger_with_docs = plutus.plutus.haskell.packages.plutus-ledger.components.library.override {
+    doHaddock = true;
+    configureFlags = ["-f defer-plugin-errors"];
+  };
+
 in
 
 # Maybe it would be easier to just call the nix shell in plutus/shell.nix ...
@@ -39,10 +45,11 @@ plutus.plutus.haskell.project.shellFor {
   additional = ps: with ps; [
     plutus-pab plutus-tx plutus-tx-plugin
     plutus-contract
-    plutus-ledger plutus-ledger-api
+    plutus-ledger-api plutus_ledger_with_docs
     plutus-core
     playground-common
     prettyprinter-configurable
+    plutus-use-cases
     freer-extras
 
     # cardano-base
@@ -60,7 +67,6 @@ plutus.plutus.haskell.project.shellFor {
     ouroboros-network-framework
   ];
 
-  # Local hoogle index of all packages
   withHoogle = true;
 
   # Extra haskell tools (arg passed on to mkDerivation)
@@ -71,15 +77,17 @@ plutus.plutus.haskell.project.shellFor {
 
     # Pab
     plutus_pab_exe plutus_pab_client
+
   ];
 
   buildInputs = [
-
+    plutus.pkgs.zlib
   ];
-
 
   PAB_CONFIG_FILE = plutus_pab_conf_file;
   PAB_CLIENT_PATH = plutus_pab_client;
   PAB_DB_PATH     = plutus_pab_conf.db-file;
+
+  PLUTUS_GAMe = plutus.plutus-game;
 
 }
