@@ -4,19 +4,24 @@ let
   #haskellNix_src = builtins.fetchTarball https://github.com/input-output-hk/haskell.nix/archive/master.tar.gz;
   #haskellNix = (import haskellNix_src) {};
 
-  #### Pin nixpkgs 20.09 with haskellNix overlays and config added
-  #nixpkgs_src = haskellNix.sources.nixpkgs-unstable;
-  #nixpkgs = (import nixpkgs_src) haskellNix.nixpkgsArgs;
+  #### Pin nixpkgs unstable with haskellNix overlays and config added
+  #### Unstable is needed for leaveDotGit option...
   bootstrap = import <nixpkgs> {} ;
+  #nixpkgs_git = builtins.fromJSON (builtins.readFile ./nixpkgs_unstable_pin.json);
+  #nixpkgs_src = bootstrap.fetchFromGitHub {
+  #  owner = "NixOS";
+  #  repo = "nixpkgs";
+  #  fetchSubmodules = false;
+  #  inherit (nixpkgs_git) rev sha256;
+  #};
+  #nixpkgs = (import nixpkgs_src) {};
 
   # Plutus
   plutus_git = builtins.fromJSON (builtins.readFile ./plutus_rev.json);
   plutus_src = bootstrap.fetchFromGitHub {
     owner = "input-output-hk";
     repo = "plutus";
-    fetchSubmodules = true;
-    leaveDotGit = true;
-    inherit (plutus_git) rev sha256;
+    inherit (plutus_git) rev sha256 fetchSubmodules deepClone leaveDotGit;
   };
 
   plutus = (import plutus_src) {};
@@ -50,21 +55,21 @@ plutus.plutus.haskell.project.shellFor {
     playground-common
     prettyprinter-configurable
     plutus-use-cases
-    freer-extras
+    #freer-extras
 
-    # cardano-base
-    cardano-binary
-    cardano-slotting
+    ## cardano-base
+    #cardano-binary
+    #cardano-slotting
 
-    cardano-crypto
+    #cardano-crypto
 
-    # cardano-prelude
-    cardano-prelude
-    cardano-prelude-test
+    ## cardano-prelude
+    #cardano-prelude
+    #cardano-prelude-test
 
-    # ouroboros-network
-    ouroboros-network
-    ouroboros-network-framework
+    ## ouroboros-network
+    #ouroboros-network
+    #ouroboros-network-framework
   ];
 
   withHoogle = true;
